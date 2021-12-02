@@ -23,18 +23,18 @@ def read(*paths, **kwargs):
 
 
 description = """
-project_name API helps you do awesome stuff. 🚀
+fastapi_fileproxy API helps you do awesome stuff. 🚀
 """
 
 app = FastAPI(
-    title="project_name",
+    title="fastapi_fileproxy",
     description=description,
     version=read("VERSION"),
-    terms_of_service="http://project_name.com/terms/",
+    terms_of_service="http://fastapi_fileproxy.com/terms/",
     contact={
-        "name": "author_name",
-        "url": "http://project_name.com/contact/",
-        "email": "author_name@project_name.com",
+        "name": "michaelnurenberg",
+        "url": "http://fastapi_fileproxy.com/contact/",
+        "email": "michaelnurenberg@fastapi_fileproxy.com",
     },
     license_info={
         "name": "The Unlicense",
